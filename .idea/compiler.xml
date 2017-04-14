@@ -6,10 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="viewer" />
         <module name="Viewer" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="viewer" target="1.8.0_121" />
       <module name="Viewer" target="1.5" />
     </bytecodeTargetLevel>
   </component>
