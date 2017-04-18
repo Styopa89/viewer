@@ -11,7 +11,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="viewer" target="1.8.0_121" />
+      <module name="viewer" target="1.8" />
       <module name="Viewer" target="1.5" />
     </bytecodeTargetLevel>
   </component>

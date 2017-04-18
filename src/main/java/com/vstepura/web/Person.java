@@ -2,21 +2,31 @@ package com.vstepura.web;
 
 public class Person {
 
-//    private static int id = 0;
+    private int id;
     private String firstName;
     private String secondName;
     private String sex;
 
     public Person() {
+        id = 1;
         firstName = "default";
         secondName = "default";
         sex = "default";
     }
 
-    public Person(String firstName, String secondName, String sex) {
+    public Person(int id, String firstName, String secondName, String sex) {
+        this.id = id;
         this.firstName = firstName;
         this.secondName = secondName;
         this.sex = sex;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 
     public String getFirstName() {
